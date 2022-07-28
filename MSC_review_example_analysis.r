@@ -54,6 +54,7 @@ examples<-examples %>% select("Common name","Productivity score") %>%
   rename(Species=`Common name`) %>%
   filter(!is.na(Species)) %>%
   left_join(seabirds,by="Species") %>%
+  mutate(surv=ifelse(Species == "Surf scoter",0.77,surv)) %>%  ## replace inappropriate survival of surf scotes with data from Krementz et al. 1997
   mutate(AFB=ifelse(AFB=="UNK",4,AFB)) %>%  ## replace AFB with dem.fix$AFB average or just 4 years for now
   mutate(fec=ifelse(Species %in% c("Southern rockhopper penguin","Masked booby"),fec*0.5,fec)) ## boobies and penguins only rear one chick out of 2 eggs lais
 
@@ -113,5 +114,5 @@ for (i in 1:nrow(examples)){
 ############# SUMMARISE OUTPUT ##########
 #####################################################
 hist(examples$lambda)
-examples<-examples %>% arrange(lambda)
+examples %>% arrange(lambda)
 fwrite(examples,"Oppel_example_output_growth_rate.csv")

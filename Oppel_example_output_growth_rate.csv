@@ -1,0 +1,16 @@
+Species,Productivity score,Family,Genus,Scientific,AFB,fec,mort,surv,lambda
+Wandering albatross,3,Diomedeidae,Diomedea,Diomedea exulans,9.8000000000000007,0.3,7,0.93,0.973037797837741
+Magnificent frigatebird,2.5,Fregatidae,Fregata,Fregata magnificens,6,0.3,7.44166666666667,0.925583333333334,0.992036917266769
+Cory's shearwater,2.5,Procellariidae,Calonectris,Calonectris borealis,8.9,0.6,7.6,0.924,0.999659356971731
+Atlantic petrel,2,Procellariidae,Pterodroma,Pterodroma incerta,6,0.6,7.44166666666667,0.925583333333334,1.0337527004887
+Sooty shearwater,2,Procellariidae,Ardenna,Ardenna grisea,6,0.6,8,0.92,1.02794453698054
+Salvin's prion,2,Procellariidae,Pachyptila,Pachyptila salvini,4,0.6,16,0.84,0.981892741195775
+Masked booby,2,Sulidae,Sula,Sula lactylatra,3,0.6,15,0.85,1.02209612710766
+Juan Fernandez petrel,2,Procellariidae,Pterodroma,Pterodroma externa,4,0.6,7.44166666666667,0.925583333333334,1.07161443969788
+Balearic shearwater,2,Procellariidae,Puffinus,Puffinus mauretanicus,5,0.6,20,0.8,0.918686769196917
+Red-tailed tropicbird,2,Phaethontidae,Phaethon,Phaethon rubicauda,4,0.6,10,0.9,1.04484096802025
+Common eider,1.5,Anatidae,Somateria,Somateria mollissima,3,0.58212,17,0.83,0.997238456382016
+European storm petrel,1.5,Hydrobatidae,Hydrobates,Hydrobates pelagicus,4.5,0.6,12,0.88,1.02388346709182
+Southern rockhopper penguin,1.5,Spheniscidae,Eudyptes,Eudyptes chrysocome,5,0.6,16,0.84,0.960657632757198
+Long-tailed duck,1,Anatidae,Clangula,Clangula hyemalis,2,0.9702,25,0.75,1.06200619988608
+Surf scoter,1,Anatidae,Melanitta,Melanitta perspicillata,2.5,1.05336,7.44166666666667,0.77,1.10442519242154
