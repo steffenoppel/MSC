@@ -28,7 +28,7 @@ library(readxl)
 #####################################################
 
 ## GENERAL DIRECTORY
-setwd("C:\\STEFFEN\\RSPB\\Marine\\Bycatch\\MSCreview")  ## copy and paste here your working directory
+setwd("C:\\STEFFEN\\RSPB\\Marine\\Bycatch\\MSCreview\\MSC")  ## copy and paste here your working directory
 
 seabirds<-read_excel("Seabird_data.xlsx", sheet="Species")
 examples<-read_excel("Productivity_analysis_SO.xlsx", sheet="BIRDS")
